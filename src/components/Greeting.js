@@ -14,7 +14,7 @@ const Greeting = () => {
   useEffect(() => {
     setTimeout(() => {
       if (randomMessage.length === 0) dispatch(getMessage());
-    }, 2000);
+    }, 1000);
   });
 
   return (
@@ -22,9 +22,9 @@ const Greeting = () => {
       {status === 'loading' ? (
         <h1>Loading...</h1>
       ) : (
-        <div className="container">
-          <h1>{randomMessage}</h1>
-          <button type="button" onClick={handleRandomMessage}>
+        <div className="container m-5">
+          <h2>{randomMessage}</h2>
+          <button type="button" className="btn btn-primary" onClick={handleRandomMessage}>
             Random Greeting
           </button>
         </div>
