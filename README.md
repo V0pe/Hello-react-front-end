@@ -146,19 +146,6 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-<details>
-  <ul>
-    <li>Add new data</li>
-    <li>add more message details </li>
-    <li>Update  style</li>
-  </ul>
-</details>
-<br>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
